@@ -1,21 +1,106 @@
     @media only screen and (max-width: 1080px) {
-
-    #nav-bar-tog
-    {     
+/* a {
+    display: none;
+} */
+body{margin: 0px; 
+    /* overflow-x: hidden;  */
+    
+}
+    .nav-bar-tog
+    {  
+    display: block;   
     background-image: url("../../imgs/mobile-view/hamburger-btn.svg");
-    height: 20px;
-    width: 100%;
-    padding: .2em;
+    height: 30px;
+    aspect-ratio: 1;
+    margin: 8px; 
     background-repeat: no-repeat;
     }
-        .Nav-bar
-        {
-            display: none;   
-            flex-direction: row;
-            flex-wrap: nowrap;
+    .nav-bar-tog[aria-expanded="true"]{background-image: url('../../imgs/mobile-view/close.svg'); width: 100px ;}
+        .Nav-bar[data-visible="false"]{display: none;}   
+
+
+    .Nav-bar h3{text-align: center;}
+    .Nav-bar[data-visible="true"]
+    {
+        z-index: 1000;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       background-color: #ffffff;
+       aspect-ratio: 0.6;
+       width: 100%;
+       
+       border-bottom: 1px solid #777777bd;
+       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+        .shop
+        {   
+            border-bottom: 1px solid #777777bd;
             
-            margin-inline-start: calc(60% - 1175px/2 - 0.5px);
+            background-color: #ffffff;      
+            width: 100%;
         }
+        .Shop-by-room-content{display: none;}
+       .shop[clicked="true"] .Shop-by-room-content{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .Collections
+        { 
+            border-bottom: 1px solid #777777bd;
+            background-color: #ffffff;      
+            width: 100%;
+        }
+            .Collections-content{display: none;}
+
+            .Collections[clicked="true"] .Collections-content{
+                display: flex;
+                flex-direction: column;
+            }
+        .Accessories{
+            border-bottom: 1px solid #777777bd;
+            
+            background-color: #ffffff;      
+            width: 100%;
+         
+        }
+        .Accessories-content{display: none;}
+
+        .Accessories[clicked="true"] .Accessories-content{
+            display: flex;
+            flex-direction: column;
+        }
+
+    .More
+{
+    
+    border-bottom:1px solid #777777bd;
+      background-color: #ffffff;      
+    width: 100%;
+ 
+}
+.More-content{display: none;}
+
+.More[clicked="true"] .More-content{
+    display: flex;
+    flex-direction: column;
+}
+.Fabric
+{
+    border-bottom:1px solid #777777bd;
+    background-color: #ffffff;         
+    width: 100%;
+ 
+}
+.Fabric-content{display: none;}
+
+.Fabric[clicked="true"] .Fabric-content{
+    display: flex;
+    flex-direction: column;
+}
     .display-section{
         display: none;
     }
@@ -29,10 +114,10 @@
     }
     #Transform-y-s
     {
-        padding-block-start: 16%;
+        
         color: #387E98;
         font-weight: 200;
-        font-size: 1em;
+        font-size: .7em;
 
     }
     #THP{
@@ -41,13 +126,10 @@
         font-size: 1.4em;
         
     }
-    .hero-section img{
-        display: none;
-    }
-    body{
-   
-    }
+
+    
     .hero-section{
+ 
         display: flex;
         flex-direction: column;
         background-image: url("../../imgs/mobile-view/div.page-title.svg");
@@ -55,11 +137,11 @@
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 800px;
+        aspect-ratio: 1.79;
         
         align-items:  center;
-        z-index: 0;
-        background-attachment: fixed;
+        
+        /* background-attachment: fixed; */
     }
 
 

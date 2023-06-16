@@ -7,13 +7,15 @@
     <title>The Hometerior place</title>
     <link rel="stylesheet" href="assests/css/desktop-view/style.css">
     <link rel="stylesheet" href="assests/css/mobile-view/style.css">
+    <script defer src="assests/Js/nav.js"></script>
     
 </head>
 <body>
-    <div id="nav-bar-tog"> 
+ 
+    <div aria-expanded="false" aria-controls="Nav-bar"  class="nav-bar-tog">  </div>
 
-        <div class="Nav-bar">
-            <div class="shop">
+        <div data-visible = "false" class="Nav-bar">
+            <div clicked="false" class="shop">
                 <h3> Shop by room <img class="caret" src="assests/imgs/desktop-view/caret.svg" alt="caret"> </h3>
                 
                 <div class="Shop-by-room-content">
@@ -24,7 +26,7 @@
                     <a href="#">link</a>
                 </div>
             </div>
-            <div class="Collections">
+            <div clicked="false" class="Collections">
                 <h3>Collections <img class="caret" src="assests/imgs/desktop-view/caret.svg" alt="caret"> </h3>
                 <div class="Collections-content">
                     <a href="#">link</a>
@@ -33,7 +35,7 @@
                     <a href="#">link</a>
                 </div>
             </div>
-            <div class="Accessories">
+            <div clicked="false" class="Accessories">
                 <h3>Accessories <img class="caret" src="assests/imgs/desktop-view/caret.svg" alt="caret"> </h3>
                 <div class="Accessories-content">
                     <a href="#">link</a>
@@ -42,7 +44,7 @@
                     <a href="#">link</a>
                 </div>
             </div>
-            <div class="More">
+            <div clicked="false" class="More">
                 <h3>More <img class="caret" src="assests/imgs/desktop-view/caret.svg" alt="caret"> </h3>
                 <div class="More-content">
                     <a href="#">link</a>
@@ -51,7 +53,8 @@
                     <a href="#">link</a>
                 </div>
             </div>
-            <div class="Fabric">
+           
+            <div clicked="false" class="Fabric">
                 <h3>Fabric Galllery <img class="caret" src="assests/imgs/desktop-view/caret.svg" alt="caret"> </h3>
                 <div class="Fabric-content">
                     <a href="#">link</a>
@@ -71,9 +74,10 @@
             <div class="item2"><img src="assests/imgs/desktop-view/Group 1.svg" alt=""></div>
         </div>
 </body>
+
 <footer>
-    <div class="contact"><div class="contact-email-address"><div><a href="#"><h2>Get to Know Us</h2></a></div>
-    <div><a href="#"><h3>@thehometeriorplace.com</h3></a></div></div>
+    <div class="contact"><div class="contact-email-address"><div><a href="#"><h2>Get to Know Us .</h2></a></div>
+    <div><a href="#"><h3><span style="font-size: 300;">@thehometeriorplace.com </span></h3></a></div></div>
         <div class="contact-office-address"> 
             <div>
             <a href="#"><h4>Midel Center, Off Oladipo Diya Way, Central Business Dis 910006, Abuja, Federal Capital Territory
