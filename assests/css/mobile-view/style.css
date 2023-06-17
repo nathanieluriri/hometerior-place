@@ -1,9 +1,14 @@
     @media only screen and (max-width: 1080px) {
-/* a {
-    display: none;
-} */
+a {
+    
+    text-decoration: none;
+    color: #494949;
+    line-height: 24px;
+    font-weight: 300;
+}
 body{margin: 0px; 
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
+    overflow: hidden;
     
 }
     .nav-bar-tog
@@ -30,7 +35,7 @@ body{margin: 0px;
        background-color: #ffffff;
        aspect-ratio: 0.6;
        width: 100%;
-       
+       overflow: hidden;
        border-bottom: 1px solid #777777bd;
        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -46,6 +51,15 @@ body{margin: 0px;
        .shop[clicked="true"] .Shop-by-room-content{
             display: flex;
             flex-direction: column;
+            text-align: center;
+            gap: 10px;
+            background-color: #f2f2f254;
+            
+        }
+        .shop[clicked="true"] .Shop-by-room-content a{
+            background-color: #f2f2f2a4;
+            
+            border-bottom:1px solid #77777750;
         }
         
         .Collections
@@ -59,6 +73,14 @@ body{margin: 0px;
             .Collections[clicked="true"] .Collections-content{
                 display: flex;
                 flex-direction: column;
+                text-align: center;
+                gap: 10px;
+                background-color: #f2f2f254;
+            }
+            .Collections[clicked="true"] .Collections-content a{
+                background-color: #f2f2f2a4;
+                
+                border-bottom:1px solid #77777750;
             }
         .Accessories{
             border-bottom: 1px solid #777777bd;
@@ -72,6 +94,14 @@ body{margin: 0px;
         .Accessories[clicked="true"] .Accessories-content{
             display: flex;
             flex-direction: column;
+            text-align: center;
+            gap: 10px;
+            background-color: #f2f2f254;
+        }
+        .Accessories[clicked="true"] .Accessories-content a{
+            background-color: #f2f2f2a4;
+            
+            border-bottom:1px solid #77777750;
         }
 
     .More
@@ -87,12 +117,22 @@ body{margin: 0px;
 .More[clicked="true"] .More-content{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    background-color: #f2f2f254;
+   
+}
+.More[clicked="true"] .More-content a{
+    background-color: #f2f2f2a4;
+    
+    border-bottom:1px solid #77777750;
 }
 .Fabric
 {
     border-bottom:1px solid #777777bd;
     background-color: #ffffff;         
     width: 100%;
+    
  
 }
 .Fabric-content{display: none;}
@@ -100,9 +140,18 @@ body{margin: 0px;
 .Fabric[clicked="true"] .Fabric-content{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    background-color: #f2f2f254;
+}
+.Fabric[clicked="true"] .Fabric-content a{
+    background-color: #f2f2f2a4;
+    
+    border-bottom:1px solid #77777750;
 }
     .display-section{
         display: none;
+
     }
 
     #shop-button{

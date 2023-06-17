@@ -8,6 +8,11 @@ const visibility = primaryNav.getAttribute('data-visible');
 if (visibility=== "true"){
     primaryNav.setAttribute('data-visible',false) ;
     NavTog.setAttribute("aria-expanded",false);
+    collections.setAttribute("clicked",false)
+    Accessories.setAttribute("clicked",false)
+    More.setAttribute("clicked",false)
+    Fabric.setAttribute("clicked",false)
+    shop.setAttribute("clicked",false)
 
 }
 else{
@@ -39,7 +44,7 @@ collections.addEventListener('click', () => {
         collections.setAttribute("clicked",false)
     }
     else{collections.setAttribute("clicked",true)
-    shop.setAttribute("clicked",true)
+    shop.setAttribute("clicked",false)
     
     Accessories.setAttribute("clicked",false)
     More.setAttribute("clicked",false)
@@ -54,7 +59,7 @@ Accessories.addEventListener('click', () => {
         Accessories.setAttribute("clicked",false)
     }
     else{Accessories.setAttribute("clicked",true)
-    shop.setAttribute("clicked",true)
+    shop.setAttribute("clicked",false)
     collections.setAttribute("clicked",false)
    
     More.setAttribute("clicked",false)
@@ -69,7 +74,7 @@ More.addEventListener('click', () => {
         More.setAttribute("clicked",false)
     }
     else{More.setAttribute("clicked",true)
-    shop.setAttribute("clicked",true)
+    shop.setAttribute("clicked",false)
     collections.setAttribute("clicked",false)
     Accessories.setAttribute("clicked",false)
    
