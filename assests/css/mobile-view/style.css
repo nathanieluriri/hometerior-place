@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppinswght@100;300;400;500;600;700&display=swap");
+
 
 @media only screen and (max-width: 1080px)
  {
@@ -202,7 +202,15 @@ body{margin: 0px;
 
 
 
-
+    .Quick-link{
+   
+        
+        font-family: 'GFS Neohellenic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    
+        }
 
 footer{
     margin: 8px;
