@@ -48,16 +48,16 @@ body{
     .Nav-bar[data-visible="true"]
     {
         z-index: 1000;
-        position: absolute;
+        position: fixed;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-       background-color: #ffffff;
+       background-color: #ffffff15;
        aspect-ratio: 0.6;
        width: 100%;
-       overflow: hidden;
+       overflow-y:hidden ;
        border-bottom: 1px solid #777777bd;
-       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))  ;
 
     }
         .shop
@@ -69,6 +69,7 @@ body{
         }
         .Shop-by-room-content{display: none;}
        .shop[clicked="true"] .Shop-by-room-content{
+        
             display: flex;
             flex-direction: column;
             text-align: center;
