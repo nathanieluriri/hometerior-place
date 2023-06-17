@@ -1,4 +1,7 @@
-    @media only screen and (max-width: 1080px) {
+@import url("https://fonts.googleapis.com/css?family=Poppinswght@100;300;400;500;600;700&display=swap");
+
+@media only screen and (max-width: 1080px)
+ {
 a {
     
     text-decoration: none;
@@ -8,7 +11,7 @@ a {
 }
 body{margin: 0px; 
     overflow-x: hidden; 
-    overflow: hidden;
+    
     
 }
     .nav-bar-tog
@@ -25,6 +28,8 @@ body{margin: 0px;
 
 
     .Nav-bar h3{text-align: center;}
+    .Nav-bar[data-visible="true"] h3{ font-family:"Poppins";font-style: normal;
+        font-weight: 300;}
     .Nav-bar[data-visible="true"]
     {
         z-index: 1000;
@@ -199,7 +204,9 @@ body{margin: 0px;
 
 
 
-
+footer{
+    margin: 8px;
+}
 
 
 

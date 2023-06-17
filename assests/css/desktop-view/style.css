@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppinswght@100;300;400;500;600;700&display=swap");
 @media only screen and (min-width: 1080px) {
-  
+
+body{
+    overflow-x: hidden;
+    margin-inline: 0px;
+}
 .caret
 {
 width: 14px;
@@ -16,16 +21,24 @@ a{
     line-height: 24px;
     font-weight: 300;
 }
+
 .Nav-bar
 {
-    
-    background-color: white;
+    padding-inline-start: 10%;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     display: flex;   
     flex-direction: row;
     flex-wrap: nowrap;
+    position: absolute;
+    overflow-x: hidden;
     
     
+}
+.Nav-bar h3{
+    font-style: normal;
+    font-weight: 300;
+        font-family:"Poppins";
 }
 .shop{
     margin: 5px;
@@ -97,8 +110,8 @@ display: flex ;
 
 .hero-section 
 {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 background-image: url("../../imgs/desktop-view/hero-section\ desktop\ view.svg");
 background-position: center;
 background-size: cover;
@@ -107,12 +120,15 @@ width: 100%;
 height: 800px; 
 align-items: center;   
 }
-#THP{
+
+#THP
+{
     font-size: 52px;
     color:#333333;
     font-weight: 400;
 
 }
+
 #Transform-y-s
 {
     font-size: 34px;
@@ -120,13 +136,16 @@ align-items: center;
     font-weight: 200;
     padding-block-start: 10%;
 }
+
 #shop-button{
     color:#F2F2F2;
     font-weight: 500;
     background-color: #1E1E1E;
     border: 2px solid #339999;
 }
-.contact-email-address{
+
+.contact-email-address
+{
     margin-inline-start: 14%;
 }
 .contact-office-address{
@@ -139,12 +158,10 @@ margin-inline-start: 34.5%;
 .display-section
 {
     width: 100%;
-    
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
-
 }
 .sub img{
    
@@ -156,9 +173,6 @@ margin-inline-start: 34.5%;
     padding-block-start: 15px;
     padding-inline-start: 20px;
 }
-/* .item1 img{
-    width: 50%
-} */
 
 .item2
 {
@@ -166,9 +180,7 @@ margin-inline-start: 34.5%;
     padding-block-start: 15px;
     padding-inline-start: 20px;
 }
-/* .item2 img{
-    width: 50%
-} */
+
 .sub 
 {
     width: max-content;
