@@ -24,7 +24,12 @@ shop.addEventListener('click', () => {
     {
         shop.setAttribute("clicked",false)
     }
-    else{shop.setAttribute("clicked",true)}
+    else{shop.setAttribute("clicked",true)
+    collections.setAttribute("clicked",false)
+    Accessories.setAttribute("clicked",false)
+    More.setAttribute("clicked",false)
+    Fabric.setAttribute("clicked",false)
+}
 })
 const collections = document.querySelector(".Collections");
 collections.addEventListener('click', () => {
@@ -33,7 +38,13 @@ collections.addEventListener('click', () => {
     {
         collections.setAttribute("clicked",false)
     }
-    else{collections.setAttribute("clicked",true)}
+    else{collections.setAttribute("clicked",true)
+    shop.setAttribute("clicked",true)
+    
+    Accessories.setAttribute("clicked",false)
+    More.setAttribute("clicked",false)
+    Fabric.setAttribute("clicked",false)
+}
 })
 const Accessories = document.querySelector(".Accessories");
 Accessories.addEventListener('click', () => {
@@ -42,7 +53,13 @@ Accessories.addEventListener('click', () => {
     {
         Accessories.setAttribute("clicked",false)
     }
-    else{Accessories.setAttribute("clicked",true)}
+    else{Accessories.setAttribute("clicked",true)
+    shop.setAttribute("clicked",true)
+    collections.setAttribute("clicked",false)
+   
+    More.setAttribute("clicked",false)
+    Fabric.setAttribute("clicked",false)
+}
 })
 const More = document.querySelector(".More");
 More.addEventListener('click', () => {
@@ -51,7 +68,13 @@ More.addEventListener('click', () => {
     {
         More.setAttribute("clicked",false)
     }
-    else{More.setAttribute("clicked",true)}
+    else{More.setAttribute("clicked",true)
+    shop.setAttribute("clicked",true)
+    collections.setAttribute("clicked",false)
+    Accessories.setAttribute("clicked",false)
+   
+    Fabric.setAttribute("clicked",false)
+}
 })
 const Fabric = document.querySelector(".Fabric");
 Fabric.addEventListener('click', () => {
@@ -60,6 +83,11 @@ Fabric.addEventListener('click', () => {
     {
         Fabric.setAttribute("clicked",false)
     }
-    else{Fabric.setAttribute("clicked",true)}
+    else{Fabric.setAttribute("clicked",true)
+    More.setAttribute("clicked",false)
+    Accessories.setAttribute("clicked",false)
+    collections.setAttribute("clicked",false)
+    shop.setAttribute("clicked",false)
+}
 })
 
