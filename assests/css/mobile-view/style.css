@@ -410,6 +410,21 @@ color: #031020;
     flex-wrap: nowrap;
 
 }
+.feautured{
+    
+    display: flex ;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    
+
+}
+.feautured h3{
+    font-family: 'GFS Neohellenic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; 
+}
 footer{
     
     margin: 8px;
