@@ -416,7 +416,7 @@ color: #031020;
     flex-direction: column;
     overflow: hidden;
     text-align: center;
-    
+    align-items: center;
 
 }
 .feautured h3{
