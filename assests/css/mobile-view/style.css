@@ -275,6 +275,101 @@ body{
     flex-direction: column;
 }
 
+.collections-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap: 20px;
+    
+    
+}
+.collections-section button{
+    background: #000000;
+    border: 3px solid #387E98;
+    border-radius: 31px;
+    
+    margin-inline-start: 10%;
+    color: #F2F2F2;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+}
+
+.Bespoke-furniture{
+    background-image: url("../../imgs/mobile-view/Furniture.svg");
+    width: 380px;
+
+    aspect-ratio: 1;
+    column-gap: 0px;
+}
+.Bespoke-furniture h2{
+    padding-block-start: 30%;
+    padding-inline-start: 10%;
+    font-family: 'Poppins';
+    color: #333333;
+    letter-spacing: -0.66px;
+    }
+    .Bespoke-furniture h3{   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+padding-inline-start: 10%;
+    }
+.Bespoke-interior{
+    background-image: url("../../imgs/mobile-view/Interior.svg");
+    width: 380px;
+  
+    aspect-ratio: 1;
+  
+    
+}
+.Bespoke-interior h2{
+padding-block-start: 30%;
+padding-inline-start: 10%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 31px;
+color: #333333;
+letter-spacing: -0.66px;
+}
+.Bespoke-interior h3{   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    padding-inline-start: 10%;
+        }
+.Bespoke-design{
+    background-image: url("../../imgs/mobile-view/design.svg");
+    width: 380px;
+    aspect-ratio: 1;
+
+}
+.Bespoke-design h2{
+    padding-block-start: 30%;
+    padding-inline-start: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: #333333;
+    letter-spacing: -0.66px;
+    }
+    .Bespoke-design h3{   
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        padding-inline-start: 10%;
+            }
 footer{
     
     margin: 8px;
