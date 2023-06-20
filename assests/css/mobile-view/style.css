@@ -425,6 +425,15 @@ color: #031020;
     font-weight: 700;
     font-size: 24px; 
 }
+
+.info-section{
+    width: 85%;
+    text-align: justify;
+    margin-inline: 2em;
+    margin-block-start:4em ;
+    font-size: 0.7rem;
+    color: #777;
+}
 footer{
     
     margin: 8px;

@@ -14,10 +14,21 @@ line-height: 14px;
         font-style: normal;
 font-weight: 400;
     }
-
+h2{
+    font-family: 'Source Serif 4';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+}
 body{
     overflow-x: hidden;
     margin-inline: 0px;
+    margin-inline-start: auto;
+    margin-inline-end:  auto;
+    max-width: 1600px;
+    padding-inline-start: 10px;
+    padding-inline-end:  10px;
+    background-color: #Ffff;
 }
 .caret
 {
@@ -44,7 +55,7 @@ a{
     display: flex;   
     flex-direction: row;
     flex-wrap: nowrap;
-    position: absolute;
+    
     overflow-x: hidden;
     justify-content: center;
     
@@ -158,7 +169,17 @@ align-items: center;
     background-color: #1E1E1E;
     border: 2px solid #339999;
 }
-
+.btn{
+    color:#ffffff;
+    font-weight: 100;
+    background-color: #1E1E1E;
+    border: 2px solid #339999;
+    font-family: 'GFS Neohellenic';
+    font-style: normal;
+    cursor: pointer;
+    margin-inline-start : 10px;
+    
+}
 .contact-email-address
 {
     margin-inline-start: 14%;
@@ -426,7 +447,28 @@ color: #031020;
     font-size: 24px; 
 }
 
+.H-heading
+{
+margin-block-start: 4em; 
+text-align: center;
+font-family: 'Source Serif 4', serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+}
 
+.info-section{
+    width: 70%;
+    text-align: justify;
+    margin-inline-start: 16em;
+    margin-block-start:4em ;
+    font-size: 1rem;
+    color: #777;
+}
+.content-wrapper{
+    display: flex;
+
+}
 footer{
     display: flex;
 }
