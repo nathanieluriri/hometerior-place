@@ -469,6 +469,12 @@ font-weight: 700;
     display: flex;
 
 }
+.contact-section{
+    
+    margin-inline-start: 6em;
+    margin-block-start:10em ;
+    
+}
 footer{
     display: flex;
 }
